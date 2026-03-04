@@ -24,9 +24,9 @@ _ALL_DESC = [
 ]
 
 _SHEET_CONFIGS = [
-    ("FXN 2X",      ["FXN 2X CISS", "FXN2X CISS", "FXN 2X", "FXN2X",
-                     "FXN 2X CISS with extra WOS", "FXN 2X CISS (normal WOS)"]),
-    ("FXN 4X CISS", ["FXN 4X CISS", "FXN4X CISS", "FXN 4X", "FXN4X"]),
+    ("FXN 2X",      ["FXN 2X", "FXN2X", "FXN 2X", "FXN2X",
+                     "FXN 2X with extra WOS", "FXN 2X (normal WOS)"]),
+    ("FXN 4X", ["FXN 4X", "FXN4X", "FXN 4X", "FXN4X"]),
     ("NKG TH",      ["NKG TH", "NKGTH", "NKG"]),
     ("HQ",          ["HQ", "HQ_Trillium"]),
 ]
@@ -310,7 +310,7 @@ if uploaded_file:
         st.error(
             "❌ No recognisable MPA sheets found. "
             "Please upload a testing data file containing "
-            "FXN 2X / FXN 4X CISS / NKG TH / HQ, plus Master and SDOS sheets."
+            "FXN 2X / FXN 4X / NKG TH / HQ, plus Master and SDOS sheets."
         )
         st.stop()
 
